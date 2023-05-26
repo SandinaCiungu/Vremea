@@ -1,0 +1,71 @@
+body {
+  background: url("img2.jpg") center fixed;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+table td {
+  background-color: #181818ec;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  opacity: 0.7;
+  width: 131px;
+}
+table {
+  border: none;
+  font-size: 12px;
+}
+#titlu {
+  background-color: #181818ec;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 25px;
+  width: 1090px;
+  opacity: 0.7;
+  font-size: 50px;
+  text-align: center;
+}
+#vreme {
+  background-color: #181818ec;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  width: 1130px;
+  opacity: 0.7;
+}
+#input-oras {
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+#afisare-vreme,
+#afisare-prognoza {
+  width: 300px;
+  height: 55px;
+  border-radius: 25px;
+  background-color: black;
+  padding: 5px;
+  padding-left: 20px;
+  font-size: 25px;
+  color: white;
+}
+#input {
+  background-color: #181818ec;
+  border-radius: 5px;
+  width: 1090px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 25px;
+  opacity: 0.7;
+}

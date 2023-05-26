@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vremea</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <br />
+      <div id="titlu">VREMEA</div>
+      <div id="input">
+        <input type="text" id="input-oras" placeholder="Introduceti orasul" />
+        <button id="afisare-vreme">Afiseaza vremea</button>
+        <button id="afisare-prognoza">Afiseaza prognoza</button>
+      </div>
+      <br />
+      <div id="vremea-acum">
+        <div id="vreme">
+          <h1>Vremea acum</h1>
+          Locatie:<br />
+          Latitudine: , longitudine:<br />
+          Descriere:<br />
+          Umiditate:<br />
+          Presiune:<br />
+          Temperatura curenta:<br />
+          Minima zilei:<br />
+          Maxima zilei:
+        </div>
+      </div>
+      <br />
+      <div id="prognoza-urmatoare">
+        <div id="prognoze">
+          <table>
+            <thead
+              id="header-tabel"
+              style="background-color: #181818ec"
+            ></thead>
+            <tr>
+              <td colspan="8"><h1>Vremea in urmatoarele zile</h1></td>
+            </tr>
+            <tbody id="body-tabel"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
